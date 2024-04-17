@@ -130,9 +130,9 @@
 
 // <================Assignment  26 to 30 ================>
 
-//Question no 1 
+//Question no 1 and  Question no 2 same but 1 is positive & 2 is negative method 
 
-// var userInput = parseInt(prompt("Enter your positive integer"));
+// var userInput = prompt("Enter your positive integer");
 
 // var roundNum = Math.round(userInput);
 
@@ -144,19 +144,6 @@
 // floor value: ${floorValue} <br> ceil value: ${ceilValue}`);
 
 
-//Question no 2 
-
-// var positiveNum = parseFloat(prompt("Enter a negative floating-point number"));
-
-// var roundNum = Math.round(positiveNum);
-
-// var floorValue = Math.floor(positiveNum);
-
-// var ceilValue = Math.ceil(positiveNum);
-
-// document.write(`number: ${positiveNum} <br> round off value: ${roundNum} <br> 
-// floor value: ${floorValue} <br> ceil value: ${ceilValue}`);
-
 // Question no 3
 
 // var num = prompt("Enter your number");
@@ -166,8 +153,41 @@
 
 // Question no 4
 
+// var randomNum = Math.floor(Math.random() * 6) + 1;
+
+// document.write(`random dice value : ${randomNum}`);
 
 
+// Question no 5
+
+// var toss = Math.floor(Math.random() * 2) + 1;
+
+// if(toss == 2){
+//   document.write(` ${toss} <br> random coin value : Heads`);
+// }
+// else
+// {
+//   document.write(`${toss} <br> random coin value : Tails `); 
+// }
+
+
+// Question no 6
+
+// var randomNum = Math.floor(Math.random() * 100) + 1;
+
+// document.write(`random number between 1 and 100 : ${randomNum}`);
+
+
+// Question no 8
+
+// var secretNum = Math.floor(Math.random() * 10) + 1;
+// var userNum = parseInt(prompt("Enter a number between 1 and 10"));
+// if(userNum === secretNum){
+//   alert("Congragulation! You guessed the secret number");
+// }
+// else{
+//   alert("Try again");
+// }
 
 
 
